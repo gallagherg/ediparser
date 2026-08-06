@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework> <OutputType>WinExe</OutputType> <AssemblyName>GenX098Net</AssemblyName> <RootNamespace>GenX098Net</RootNamespace> <ImplicitUsings>enable</ImplicitUsings> <Nullable>disable</Nullable> <GenerateAssemblyInfo>false</GenerateAssemblyInfo> <EnableDefaultCompileItems>false</EnableDefaultCompileItems> <UseWindowsForms>true</UseWindowsForms> <EnableWindowsTargeting>true</EnableWindowsTargeting> <StartupObject>GenX098Net.Form1</StartupObject> <OptionExplicit>On</OptionExplicit> <OptionStrict>Off</OptionStrict> <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**/*.vb" Exclude="bin/**;obj/**;My Project/**;AssemblyInfo.vb;Properties/AssemblyInfo.cs" />
+    
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.OleDb" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.IO" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.OleDb" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../EDIParser.Core/EDIParser.Core.csproj" />
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="**/*.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="**/*.x12" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="**/*.X12" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="**/*.ico" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

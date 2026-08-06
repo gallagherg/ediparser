@@ -1,0 +1,32 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Test output
+TestResults/
+coverage/
+*.trx
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# DocFX generated site
+docs/_site/
+
+# Operating system
+Thumbs.db
+.DS_Store

@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GenX098Net", "GenX098Net.vbproj", "{6D6D1995-4805-45C2-AB75-C2E134EE628B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D6D1995-4805-45C2-AB75-C2E134EE628B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6D1995-4805-45C2-AB75-C2E134EE628B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6D1995-4805-45C2-AB75-C2E134EE628B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6D1995-4805-45C2-AB75-C2E134EE628B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
