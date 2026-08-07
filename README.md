@@ -8,7 +8,7 @@ This project is a modernized C# migration of the original EDIParser library, Win
 
 Full documentation and API reference:
 
-https://gallagherg.github.io/ediparser/
+[Documentation](https://gallagherg.github.io/ediparser/)
 
 ## Supported formats
 
