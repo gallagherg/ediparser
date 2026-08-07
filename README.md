@@ -3,6 +3,7 @@
 EDIParser is an open-source .NET 8 library for parsing, inspecting, modifying, and generating electronic data interchange messages.
 
 This project is a modernized C# migration of the original EDIParser library, Windows Forms Viewer application, and selected sample projects.
+![EDIParser architecture and object model](docs/images/ediparser-architecture.png)
 
 ## Documentation
 
