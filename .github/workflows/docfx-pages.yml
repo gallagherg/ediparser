@@ -55,7 +55,7 @@ jobs:
         run: |
           test -f docs/_site/index.html
           echo "DocFX site generated successfully."
-          find docs/_site -maxdepth 2 -type f | head -40
+          find docs/_site -maxdepth 2 -type f | sed -n '1,40p'
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
